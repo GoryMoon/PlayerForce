@@ -1,0 +1,31 @@
+# Config for PlayerForce Plugin
+ 
+# Enables or disables the plugin
+Enable: true
+
+# Command that players with 'force.user' is forced to do.
+UserCommand: 'motd'
+
+# True if user should be forced to do another command on join
+UserCom2: false
+
+# Second command for user
+UserCommand2: 'kit tools'
+
+# Force players with 'force.admin' permssions.
+ForceAdmin: false
+
+# Command if admin is forced.
+AdminCommand: 'plugins'
+
+# True if admin should be forced to do another command on join. ForceAdmin have to be 'true'.
+ForceAdmin2: false
+
+# Second command for Admin if forced.
+AdminCommand2: 'spawn'
+
+# Set to true if admin should use same command as a regular player. ForceAdmin needs to be 'true'.
+AdminUserCommand: false
+
+# Set to true if admin should use the second command as a regular player. ForceAdmin2 needs to be 'true'.
+AdminUserCommand: false
